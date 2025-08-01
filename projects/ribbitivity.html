@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Dionysus</title>
+  </head>
+  <body class="b612-mono-regular" onload="lastModified()">
+    <header>
+      <a class="white-text b612-mono-regular" href="./../projects.html">&lt; Back</a>
+      <div class="last-modified"></div>
+
+      <!-- Upper right icons -->
+      <div>
+        <img src="./../imgs/Minimize.png" class="smaller-image"></img>
+        <img src="./../imgs/Maximize.png" class="smaller-image"></img>
+        <img src="./../imgs/CloseWindow.png" class="smaller-image"></img>
+      </div>
+    </header>
+    <main class="p-20">
+
+        <h2>Showcase</h2>
+
+        <div class="flex-col bg-black rounded">
+            <img src="../imgs/ribbitivity-home.png" class="slide" alt="Homepage of the Ribbitivity app">
+            <img src="../imgs/ribbitivity-tasks.png" class="slide hidden-content" alt="Tasks">
+            <img src="../imgs/ribbitivity-timer.png" class="slide hidden-content" alt="Timer">
+            <iframe class="slide hidden-content" width="100%" src="https://www.youtube.com/embed/5UipCEjQEY0?si=jmdFIG49LQQr-WlL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+
+        <div class="flex-row p-20 smaller-gap">
+          <img src="../imgs/ribbitivity-home.png" class="slide-thumbnail" alt="Homepage of the Ribbitivity app" onclick="showSlide(0)">
+          <img src="../imgs/ribbitivity-tasks.png" class="slide-thumbnail" alt="Tasks" onclick="showSlide(1)">
+          <img src="../imgs/ribbitivity-timer.png" class="slide-thumbnail" alt="Timer" onclick="showSlide(2)">
+          <img src="../imgs/ribbitivity-home.png" class="slide-thumbnail" alt="Homepage of the Ribbitivity app" onclick="showSlide(3)">
+
+        </div>
+      
+        <h2>Context</h2>
+        <p>This project was a group effort at learning Kotlin and mobile app development for Android in particular.</p>
+
+        <h2>Introduction</h2>
+        <p>Ribbitivity welcomes the user warmly with its productivity frog. The user is able to write down what tasks they want to complete and use a timer to frame intervals of productivity (inspired by the pomodoro technique)</p>
+
+        <h2>Challenges</h2>
+        <p>Our biggest challenge in this project was that we had no prior knowledge regarding the development of mobile apps. </p>        
+
+    </main>
+  </body>
+  <script src="./../scripts/lastModified.js"></script>
+  <script src="./../scripts/galleryNavigation.js"></script>
+
+
+</html>

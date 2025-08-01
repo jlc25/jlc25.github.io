@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../style.css" />
+  <title>Dionysus</title>
+</head>
+
+<body class="b612-mono-regular" onload="lastModified()">
+  <header>
+    <a class="white-text b612-mono-regular" href="./../projects.html">&lt; Back</a>
+    <div class="last-modified"></div>
+
+    <!-- Upper right icons -->
+    <div>
+      <img src="./../imgs/Minimize.png" class="smaller-image"></img>
+      <img src="./../imgs/Maximize.png" class="smaller-image"></img>
+      <img src="./../imgs/CloseWindow.png" class="smaller-image"></img>
+    </div>
+  </header>
+  <main class="p-20">
+
+    <h2>Showcase</h2>
+
+    <div class="flex-col bg-black rounded">
+      <img src="../imgs/dionysus-homepage.png" class="slide" alt="Homepage of the Dionysus webpage">
+      <img src="../imgs/dionysus-login.png" class="slide hidden-content" alt="">
+      <img src="../imgs/dionysus-registration-page.png" class="slide hidden-content" alt="">
+      <img src="../imgs/dionysus-boards.png" class="slide hidden-content" alt="">
+      <img src="../imgs/dionysus-chat.png" class="slide hidden-content" alt="">
+    </div>
+
+    <div class="flex-row p-20 smaller-gap">
+      <img src="../imgs/dionysus-homepage.png" class="slide-thumbnail" alt="Homepage of the Dionysus webpage"
+        onclick="showSlide(0)">
+      <img src="../imgs/dionysus-login.png" class="slide-thumbnail" alt="" onclick="showSlide(1)">
+      <img src="../imgs/dionysus-registration-page.png" class="slide-thumbnail" alt="" onclick="showSlide(2)">
+      <img src="../imgs/dionysus-boards.png" class="slide-thumbnail" alt="" onclick="showSlide(3)">
+      <img src="../imgs/dionysus-chat.png" class="slide-thumbnail" alt="" onclick="showSlide(4)">
+    </div>
+
+    <h2>Context</h2>
+    <p>This was the final project for our web development class. We worked as a team of 4 to bring this messaging app to
+      life, from idea to conception. </p>
+
+    <h2>Introduction</h2>
+    <p>Dionysus is a messaging app meant to ease communication between student and teaching staff. With a simple
+      interface, it allows users to easily <b>get stuff done</b>. You can keep all your classes organized with the help
+      of the channels function. Keep all important messages at glance's reach by pinning them.</p>
+
+    <h2>Challenges</h2>
+    <p>One of the many challenges encounterered during this project was the tight schedule we had to follow. This was
+      especially difficult as members were also juggling with other coursework. </p>
+
+  </main>
+</body>
+<script src="./../scripts/lastModified.js"></script>
+<script src="./../scripts/galleryNavigation.js"></script>
+
+</html>
